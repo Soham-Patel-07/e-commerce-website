@@ -1,0 +1,159 @@
+# UPLOAD TO GITHUB - STEP BY STEP
+
+================================================================================
+STEP 1: CREATE GITHUB ACCOUNT (IF YOU DON'T HAVE ONE)
+================================================================================
+1. Go to: https://github.com
+2. Click "Sign up"
+3. Enter: username, email, password
+4. Verify email
+5. Done! You have GitHub account
+
+================================================================================
+STEP 2: CREATE NEW REPOSITORY
+================================================================================
+1. Go to: https://github.com
+2. Login to your account
+3. Click the "+" button (top right corner)
+4. Click "New repository"
+5. Fill in:
+   - Repository name: ecommerce
+   - Description: Multi-vendor E-commerce Platform with Laravel
+6. Choose: Public (or Private)
+7. IMPORTANT: DO NOT check any boxes below
+8. Click green button: "Create repository"
+9. Wait for page to load
+10. Copy the URL shown (it looks like: https://github.com/yourname/ecommerce)
+11. PASTE IT SOMEWHERE (you'll need it later)
+
+================================================================================
+STEP 3: PREPARE YOUR FILES
+================================================================================
+Your project is already at: C:\xampp\htdocs\ecom
+
+You need to upload these FOLDERS (drag and drop to GitHub):
+✓ app
+✓ bootstrap
+✓ config
+✓ database
+✓ public
+✓ resources
+✓ routes
+✓ storage
+
+You need to upload these FILES (drag and drop to GitHub):
+✓ .env.example (I already created this for you)
+✓ .gitignore (I already created this for you)
+✓ artisan
+✓ composer.json
+✓ composer.lock
+✓ package.json
+✓ phpunit.xml
+✓ (other files you see in the folder)
+
+DO NOT UPLOAD:
+✗ vendor (folder - too big)
+✗ node_modules (folder)
+✗ .env (file - has passwords)
+
+================================================================================
+STEP 4: UPLOAD FILES TO GITHUB
+================================================================================
+1. You are on your GitHub repository page (after Step 2)
+2. You should see: "uploading an existing file" link - CLICK IT
+3. Now you see: "Drag files here to add to your repository"
+
+LET'S UPLOAD FOLDERS FIRST:
+
+A) Upload "app" folder:
+   - Go to: C:\xampp\htdocs\ecom\
+   - Find "app" folder
+   - Drag it to the GitHub upload area
+   - Wait for upload (may take 1-2 minutes)
+
+B) Upload "bootstrap" folder:
+   - Go to: C:\xampp\htdocs\ecom\
+   - Find "bootstrap" folder
+   - Drag it to GitHub
+
+C) Upload "config" folder:
+   - Go to: C:\xampp\htdocs\ecom\
+   - Find "config" folder
+   - Drag it to GitHub
+
+D) Upload "database" folder:
+   - Go to: C:\xampp\htdocs\ecom\
+   - Find "database" folder
+   - Drag it to GitHub
+
+E) Upload "public" folder:
+   - Go to: C:\xampp\htdocs\ecom\
+   - Find "public" folder
+   - Drag it to GitHub
+
+F) Upload "resources" folder:
+   - Go to: C:\xampp\htdocs\ecom\
+   - Find "resources" folder
+   - Drag it to GitHub
+
+G) Upload "routes" folder:
+   - Go to: C:\xampp\htdocs\ecom\
+   - Find "routes" folder
+   - Drag it to GitHub
+
+H) Upload "storage" folder:
+   - Go to: C:\xampp\htdocs\ecom\
+   - Find "storage" folder
+   - Drag it to GitHub
+
+NOW UPLOAD FILES:
+
+I) Upload these files one by one:
+   - .env.example
+   - .gitignore
+   - artisan
+   - composer.json
+   - composer.lock
+   - package.json
+   - phpunit.xml
+   - (any other file you see)
+
+AFTER ALL UPLOADS:
+1. Scroll down
+2. You see "Commit changes" box
+3. In the box, type: "Initial commit - Multi-vendor E-commerce Platform"
+4. Click green button: "Commit changes"
+
+================================================================================
+STEP 5: VERIFY UPLOAD
+================================================================================
+1. Wait for upload to finish
+2. Refresh your GitHub page
+3. You should see all folders and files listed
+4. Click on "app" folder - you should see Controllers, Models, etc.
+
+================================================================================
+STEP 6: SETUP ON NEW COMPUTER (IF NEEDED)
+================================================================================
+When someone downloads/clones your project:
+
+1. Download ZIP from GitHub OR run:
+   git clone https://github.com/YOUR_USERNAME/ecommerce.git
+
+2. Open folder in terminal/command prompt
+
+3. Run these commands:
+   composer install
+   copy .env.example .env
+   php artisan key:generate
+   php artisan migrate --seed
+   php artisan storage:link
+   php artisan serve
+
+4. Open browser: http://127.0.0.1:8000
+
+================================================================================
+COMPLETE! YOUR PROJECT IS ON GITHUB!
+================================================================================
+
+Questions? Check PROJECT_DOCUMENTATION.md in docs folder
