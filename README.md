@@ -113,4 +113,4 @@ MIT License
 
 ---
 
-Developed as part of my **7th-semester internship** during my **Bachelor of Engineering** in **Computer Engineering** at **Bhagwan Arihant Institute of Technology**.
+Developed as part of my **7th-semester internship** at **Advait Solutions** in **July 2022,** during my **Bachelor of Engineering** in **Computer Engineering** at **Bhagwan Arihant Institute of Technology**.
