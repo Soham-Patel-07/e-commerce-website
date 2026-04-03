@@ -110,3 +110,7 @@ ecom/
 ## License
 
 MIT License
+
+---
+
+Developed as part of my **7th-semester internship** during my **Bachelor of Engineering** in **Computer Engineering** at **Bhagwan Arihant Institute of Technology**.
