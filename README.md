@@ -92,24 +92,54 @@ php -S 127.0.0.1:8000 -t public
 ```
 ecom/
 ├── app/
+│   ├── Console/
+│   ├── Exceptions/
 │   ├── Http/
-│   │   ├── Controllers/     # All controllers
-│   │   └── Middleware/      # Role middleware
-│   └── Models/              # Eloquent models
+│   │   ├── Controllers/        # All controllers
+│   │   ├── Middleware/         # Role-based middleware
+│   │   ├── Requests/           # Form requests
+│   │   └── Kernel.php
+│   ├── Models/                  # Eloquent models
+│   ├── Providers/               # Service providers
+│   └── View/
+├── bootstrap/
+│   └── app.php
+├── config/                      # Configuration files
 ├── database/
-│   ├── migrations/          # Database migrations
-│   └── seeders/            # Database seeders
+│   ├── migrations/             # Database migrations
+│   ├── seeders/                # Database seeders
+│   └── factories/              # Model factories
+├── public/                     # Public assets
 ├── resources/
-│   └── views/              # Blade templates
+│   ├── views/                  # Blade templates
+│   ├── js/                     # JavaScript files
+│   ├── css/                    # CSS files
+│   └── lang/                   # Language files
 ├── routes/
-│   └── web.php             # Web routes
-├── .env                    # Environment config
-└── artisan                 # Laravel CLI
+│   ├── web.php                 # Web routes
+│   ├── api.php                 # API routes
+│   └── channels.php            # Broadcasting channels
+├── storage/                    # Storage files
+├── tests/                      # Test files
+├── vendor/                     # Composer dependencies
+├── .env                        # Environment config
+├── .env.example
+├── artisan                     # Laravel CLI
+├── composer.json
+├── package.json
+├── phpunit.xml
+└── README.md
 ```
 
-## License
+## 📄 License
 
-MIT License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+## Acknowledgments
+
+- I would like to express my sincere gratitude to **Advait Solutions** for providing me the opportunity to work on this project as part of my internship.
+- I am thankful to my mentors and colleagues for their guidance and support throughout the development process.
 
 ---
 
