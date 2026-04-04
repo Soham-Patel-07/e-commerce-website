@@ -138,8 +138,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- I would like to express my sincere gratitude to **Advait Solutions** for providing me the opportunity to work on this project as part of my internship.
-- I am thankful to my mentors and colleagues for their guidance and support throughout the development process.
+- **Advait Solutions** - for the internship opportunity
+- Mentors and colleagues - for guidance and support
 
 ---
 
